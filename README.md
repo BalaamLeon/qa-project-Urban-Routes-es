@@ -64,7 +64,6 @@ Para ejecutar las pruebas de este proyecto:
 1. Abre una terminal en la raíz del proyecto.
 2. Usa el siguiente comando para ejecutar todas las pruebas:
     ```shell
-    pytest test.py
+    pytest main.py
     ```
-
 3. Los resultados de las pruebas se mostrarán directamente en la terminal, indicando si cada prueba pasó o falló, junto con detalles adicionales en caso de errores.

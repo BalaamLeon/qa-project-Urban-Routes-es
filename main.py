@@ -64,9 +64,11 @@ class UrbanRoutesPage:
     ice_cream_add_button = (By.XPATH, '//div[text()="Helado"]//..//div[@class="counter-plus"]')
     ice_cream_counter = (By.XPATH, '//div[text()="Helado"]//..//div[@class="counter-value"]')
     call_taxi_smart_button = (By.XPATH, '//button[@class="smart-button"]')
-    order_modal = (By.CLASS_NAME, 'order')
-    order_number = (By.CLASS_NAME, 'order-number')
     driver_name = (By.XPATH, '//div[@class="order-button"]//..//div[2]')
+
+    # Utilizar un selector diferente: CSS_SELECTOR
+    order_modal = (By.CSS_SELECTOR, '.order')
+    order_number = (By.CSS_SELECTOR, '.order-number')
 
     def __init__(self, driver):
         self.driver = driver
